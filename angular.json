@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": []
           },
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Restaurant"
+    }
+  },
+  "defaultProject": "Restaurant",
+  "cli": {
+    "analytics": "3e14b56a-23f9-4ed7-b01d-8e1550520644"
+  }
 }

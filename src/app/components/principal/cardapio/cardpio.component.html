@@ -1,0 +1,36 @@
+<nav-bar></nav-bar>
+<div class="container">
+
+    <h1 class="display-4 mb-4 mt-5">Menu</h1>
+
+    <div class="row">
+
+         <!-- <div class="col-md-4 col-sm-6 mt-3" *ngFor="let c of cardapios">
+            <div class="card" >
+                <div class="card-body">
+                    <p class="lead">{{c.titulo}}</p>
+                    <h5 class="card-title">{{c.nome}}</h5>
+                    <p class="card-text mt-3">{{c.descricao}}</p>
+                </div>
+                <div class="price">
+                   <P>{{c.preco | currency: 'BRL'}}</P>
+                </div>
+            </div>
+        </div> -->
+
+
+        <div class="col-md-4 col-sm-6 mt-3" *ngFor="let c of cardapio$ | async ">
+            <div class="card" >
+                <div class="card-body">
+                    <p class="lead">{{c.titulo}}</p>
+                    <h5 class="card-title">{{c.nome}}</h5>
+                    <p class="card-text mt-3">{{c.descricao}}</p>
+                </div>
+                <div class="price">
+                   <P>{{c.preco | currency: 'BRL'}}</P>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

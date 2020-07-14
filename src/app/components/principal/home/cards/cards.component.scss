@@ -1,0 +1,76 @@
+
+.text1{
+    height: 400px;
+    width: 400px;
+ 
+    background: url(https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-position: center;
+}
+
+.text2{
+    height: 400px;
+    width: 400px;
+
+    background: url(https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-position: center;
+}
+.text3{
+    height: 400px;
+    width: 400px;
+  
+    background: url(https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-position: center;
+}
+// .cards{
+//     width: 100vw;
+//     height: auto;
+//     justify-content: center;
+// }
+.row{
+    margin: 5% 0 0 0 ;
+}
+.col{
+    // border: 1px solid #C0C0C0;
+    margin: 6.5px;
+    border-radius: 10px;
+    background-color: white;
+}
+.col-sm{
+    // border: 1px solid #C0C0C0;
+    margin: 6.5px;
+    border-radius: 10px;
+    background-color: white;
+}
+.display-4{
+    color: white;
+    margin: 15% 0 0 0;
+}
+
+.text-apoio p{
+    text-align: justify;
+    margin-top: 5%;
+}
+.text1:hover{
+    // background: yellow;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.text2:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.text3:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    
+}

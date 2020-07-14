@@ -1,0 +1,18 @@
+.bg-light{
+   background: transparent !important;
+}
+.nav-link{
+    color: #FF8C00 !important;
+    cursor: pointer;
+
+    //verificar linha abaixo
+    // &.active{
+    //     background-color: red;
+    // }
+}
+.navbar-brand{
+    color: #FF8C00!important;
+}
+.rota-ativa{
+    border-bottom: 1px solid #FF8C00;
+}

@@ -1,0 +1,57 @@
+{
+  "cardapio": [
+    {
+      "titulo":"Carne",
+      "nome": "MEDAGLIONE AL BRIE E MARSALA",
+      "descricao": "medalhão com queijo brie ao molho de vinho marsala, com risoto de queijo grana padano",
+      "preco": 89,
+      "promocao": "",
+      "id": 1
+    },
+    {
+      "titulo":"Carne",
+      "nome": "TAGLIATA DI MANZO AL CREMA DI TARTUFO BIANCO",
+      "descricao": "filé mignon fatiado com taglioline na espuma trufada com gema de ovo pochê",
+      "preco": 67,
+      "promocao": "",
+      "id": 2
+    },
+    {
+      "titulo":"Pastas",
+      "nome": "GNOCCHI DI PATATE ALL`ARRABBIATA E GAMBERI",
+      "descricao": "gnocchi de batata com molho de tomate apimentado e oreganos, azeitonas pretas e camarões",
+      "preco": 91,
+      "promocao": "",
+      "id": 3
+      
+    },
+    {
+      "titulo":"Pastas",
+      "nome": "RAVIOLI ALLA CAPRESE",
+      "descricao": "massa recheada com mussarela de búfala e pesto de manjericão, ao molho de tomate fresco",
+      "preco": 66,
+      "promocao": "",
+      "id": 4
+      
+    },
+    {
+      "titulo":"Caldos",
+      "nome": "CALDO DE ERVILHA",
+      "descricao": "massa recheada com mussarela de búfala e pesto de manjericão, ao molho de tomate fresco, com ervilhas",
+      "preco": 30,
+      "promocao": "",
+      "id": 5
+      
+    },
+    {
+      "titulo":"Caldos",
+      "nome": "CALDO DE ABÓBORA",
+      "descricao": "massa recheada com mussarela de búfala e pesto de manjericão, ao molho de tomate fresco, com ervilhas",
+      "preco": 30,
+      "promocao": "",
+      "id": 6
+      
+    }
+
+  ]
+}

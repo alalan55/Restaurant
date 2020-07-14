@@ -1,0 +1,82 @@
+<nav-bar></nav-bar>
+<div class="container">
+    <h1 class="display-4 primeiroH1">Faça a sua reserva <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-check" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M11 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM1.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM6 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm6.854.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+      </svg></h1>
+
+      <div class="alert alert-success" role="alert" *ngIf="submitted">
+        Reserva efetuada
+      </div>
+    <div class="row">
+        <div class="img col"></div>
+
+        <div class="bloco-text col-sm-12 col-md-6">
+            <h1 class="display-4 mb-4 segundoH1">Preencha as informações:</h1>
+
+
+            <form  #form="ngForm" [formGroup]="reservaForm" (submit)="enviarForm()"> 
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label for="" class="lead">Nome</label>
+                      <input type="text" class="form-control" placeholder="Nome e sobrenome"
+                      formControlName="nome">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="" class="lead">CPF</label>
+                      <input type="text" class="form-control"
+                      formControlName="cpf" cpf [textMask]="{mask: MASKS.cpf.textMask}">
+                    </div>
+                    <div class="col-md-8">
+                      <label for="" class="lead">Telefone</label>
+                    <input type="text" class="form-control"
+                    formControlName="telefone" [textMask]="{mask: MASKS.telefone.textMaskFunction}">
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="" class="lead">Horário</label>
+                  <input type="time" class="form-control"
+                  formControlName="horario">
+                </div>
+
+                </div>
+
+                <div class="form-row mt-4">
+
+
+                  <div class="col-md-6">
+                      <label for="" class="lead">Pessoas</label>
+                    <input type="number" class="form-control" placeholder="Quantidade"
+                    formControlName="qtdPessoas">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="" class="lead">Data</label>
+                    <input type="date" class="form-control" placeholder="Last name"
+                    formControlName="dataReserva">
+                  </div>
+                
+                
+                </div>
+
+                <div class="form-row mt-3">
+                    <div class="col-sm">
+                        <label for="exampleFormControlTextarea1" class="lead">Observações:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        formControlName="observacoes"></textarea>
+                      </div>
+                </div>
+
+
+
+                <button type="submit"
+                class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect mt-4">Reservar <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                    <path fill-rule="evenodd" d="M1.5 13A1.5 1.5 0 0 0 3 14.5h10a1.5 1.5 0 0 0 1.5-1.5V8a.5.5 0 0 0-1 0v5a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 0 0-1H3A1.5 1.5 0 0 0 1.5 3v10z"/>
+                  </svg></button>
+              </form>
+
+             
+        </div>
+        
+    </div>
+    
+</div>

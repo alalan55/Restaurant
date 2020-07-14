@@ -1,0 +1,35 @@
+.container{
+
+
+}
+.img{
+    height: 500px;
+    width: 300px;
+   
+    background: url(https://images.pexels.com/photos/6270/woman-flowers-holidays-girl-6270.jpg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-position: center;
+}
+.segundoH1{
+    font-size: 40px;
+}
+
+.primeiroH1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.bloco-text{
+    margin-top: -5px;
+}
+
+.col{
+    margin: 2%;
+}
+.alert-success{
+    text-align: center;
+}
+.row{
+    margin: 2%;
+}
